@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input[type=text] {
+
+    
+  }
+
+.toDoList_up {
+  border: 1px solid black;
+  border-bottom: none;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2% 30% 0% 30%;
+}
+h2 {
+  font-size: 40px;
+  color: rgb(21, 188, 222);
+  margin-left: 40%;
+  margin-top: 20px;
+}
+#inputSend {
+  height: 45px;
+  width: 80%;
+  margin-left: 10%;
+  border: 1px solid black;
+  padding: 12px 20px;
+
+}
+#toDoSend {
+  height: 35px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 10%;
+  background-color: rgb(21, 188, 222);
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
+
+.Check_line {
+  text-decoration: line-through;
+}
+.toDoList_down {
+  border: 1px solid black;
+  min-height: 60vh;
+  width: 40%;
+  margin: 0px 30%;
+}
+.toDoListText {
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 20px;
+  height: 60px;
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+#clear {
+  height: 35px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 10%;
+  background-color: rgb(21, 188, 222);
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+}
